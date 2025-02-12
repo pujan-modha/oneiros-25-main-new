@@ -1,4 +1,4 @@
-import { Gloock, Instrument_Sans, Montserrat, Inclusive_Sans } from "next/font/google";
+import { Gloock, Montserrat } from "next/font/google";
 import Team from "./Team";
 
 // Configure fonts
@@ -8,22 +8,10 @@ const gloock = Gloock({
   variable: "--font-gloock",
 });
 
-const instrumentSans = Instrument_Sans({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-instrument-sans",
-});
-
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-montserrat",
-});
-
-const inclusiveSans = Inclusive_Sans({
-  subsets: ["latin"],
-  weight: "400",
-  variable: "--font-inclusive-sans",
 });
 
 interface TeamMember {

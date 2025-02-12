@@ -83,7 +83,7 @@ export default function Team() {
       ${committee.execMembers
         .map(
           (member) => `
-        <div class="bg-[#282828] p-4 rounded-xl shadow-md shadow-[#AAAAAA10]">
+        <div class='bg-[#282828] p-4 rounded-xl shadow-md shadow-[#AAAAAA10]'>
           <p>${member}</p>
         </div>
       `
@@ -98,7 +98,7 @@ export default function Team() {
       ${committee.coreMembers
         .map(
           (member) => `
-        <div class="bg-[#282828] p-4 rounded-xl shadow-md shadow-[#AAAAAA10]">
+        <div class='bg-[#282828] p-4 rounded-xl shadow-md shadow-[#AAAAAA10]'>
           <p>${member}</p>
         </div>
       `
