@@ -120,7 +120,7 @@ export default function TeamSection() {
                   </div>
 
                   <div className="pt-16 pb-8 px-6">
-                    <p className="text-[#9f9f9f] text-center italic">"{member.quote}"</p>
+                    <p className="text-[#9f9f9f] text-center italic">&quot;{member.quote}&quot;</p>
                   </div>
                 </div>
               </div>
@@ -145,7 +145,7 @@ export default function TeamSection() {
                   </div>
 
                   <div className="pt-16 pb-8 px-6">
-                    <p className="text-[#9f9f9f] text-center italic">"{member.quote}"</p>
+                    <p className="text-[#9f9f9f] text-center italic">&quot;{member.quote}&quot;</p>
                   </div>
                 </div>
               </div>
