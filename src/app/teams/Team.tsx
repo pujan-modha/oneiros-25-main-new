@@ -3,8 +3,8 @@ import Accordion from "../_LandingPageComponents/Accordion";
 const committeesData = [
   {
     committeeName: "Web Development",
-    execMembers: ["Kunal Yadav", "Pujan Modha", "Vasu Verma", "Arunabha Mukhopadhyay", "Jatin Tilwani", "Ayush Shashi"],
-    coreMembers: ["Abhiman Panwar", "Tanishq Choudhary", "Shubh Srivastava", "Nirmal Rajkumar", "K S Mahadevan", "Akshat Jaiswal"],
+    execMembers: ["Ayush Shashi", "Kunal Yadav", "Pujan Modha", "Vasu Verma", "Arunabha Mukhopadhyay", "Jatin Tilwani"],
+    coreMembers: ["Shubh Shrivastava", "Abhiman Panwar", "Tanishq Choudhary", "Nirmal Rajkumar", "K S Mahadevan", "Akshat Jaiswal"],
   },
   {
     committeeName: "Major Events",
