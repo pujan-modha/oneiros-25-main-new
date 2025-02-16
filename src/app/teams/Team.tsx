@@ -3,7 +3,7 @@ import Accordion from "../_LandingPageComponents/Accordion";
 const committeesData = [
   {
     committeeName: "Web Development",
-    execMembers: ["Ayush Shashi", "Kunal Yadav", "Pujan Modha", "Vasu Verma", "Arunabha Mukhopadhyay", "Jatin Tilwani"],
+    execMembers: ["Ayush Shashi", "Kunal Yadav", "Pujan Modha", "Vasu Verma", "Arunabha Mukhopadhyay", "Anvit Dadape"],
     coreMembers: ["Shubh Shrivastava", "Abhiman Panwar", "Tanishq Choudhary", "Nirmal Rajkumar", "K S Mahadevan", "Akshat Jaiswal"],
   },
   {
@@ -18,7 +18,7 @@ const committeesData = [
   },
   {
     committeeName: "Productions",
-    execMembers: ["Ayush Jaiswal", "Abhay Singh", "Akshat", "Archit Nigam", "Himalaya Sharma", "Dhairya Balani", "Muskan Agarwal", "Aradhya Khandelwal"],
+    execMembers: [ "Himalaya Sharma", "Ayush Jaiswal", "Abhay Singh", "Akshat", "Archit Nigam", "Dhairya Balani", "Muskan Agarwal", "Aradhya Khandelwal"],
     coreMembers: ["Krish Marwaha", "Udit Jhajhariya", "Satyam Rai", "Arushi Singh", "Mansi Negi", "Piyush Agarwal", "Parv Rangbulla", "Tamanna Yadav", "Harshit Attri", "Satya Agrawal", "Tanmay Shah", "Animesh Jain", "Akshat Attri", "Shifa Khan", "Mumukshu Bohra", "Aaradhya Deep Dwivedi", "Subhash Singh", "Siddham Gupta", "Kavya Kumar"],
   },
   {
@@ -109,7 +109,7 @@ export default function Team() {
 
         const contentHTML = execMembersHTML + coreMembersHTML;
 
-        return <Accordion title={committee.committeeName} content={contentHTML} />;
+        return <Accordion key={index} title={committee.committeeName} content={contentHTML} />;
       })}
     </>
   );
