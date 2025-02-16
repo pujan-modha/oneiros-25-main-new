@@ -15,7 +15,7 @@ const Header = () => {
     { href: "/events", label: "Events" },
     { href: "/artists", label: "Artists" },
     { href: "/teams", label: "Teams" },
-    { href: "/sponsors", label: "Sponsors" },
+    { href: "/sponsors", label: "Partners" },
   ];
 
   return (

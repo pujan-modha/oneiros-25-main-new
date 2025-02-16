@@ -12,12 +12,12 @@ type Sponsor = {
 type Benefit = string;
 
 const sponsors: Sponsor[] = [
-  { name: "Sponsor 1", logo: "https://jaipurliteraturefestival.org/assets/slider_6-CvbCL7uu.png" },
-  { name: "Sponsor 2", logo: "https://jaipurliteraturefestival.org/assets/slider_7-Cmrvxc47.png" },
-  { name: "Sponsor 3", logo: "https://jaipurliteraturefestival.org/assets/slider_1-DFbE4BHu.png" },
-  { name: "Sponsor 4", logo: "https://jaipurliteraturefestival.org/assets/slider_3-BCDHgckF.png" },
-  { name: "Sponsor 5", logo: "https://jaipurliteraturefestival.org/assets/slider_4-B_OoL44r.png" },
-  { name: "Sponsor 6", logo: "https://jaipurliteraturefestival.org/assets/slider_5-BehQ8764.png" },
+  { name: "", logo: "1P.png" },
+  { name: "", logo: "2P.png" },
+  { name: "", logo: "3P.png" },
+  { name: "", logo: "4P.png" },
+  { name: "", logo: "5P.png" },
+  { name: "", logo: "6P.png" },
 ];
 
 const minorSponsors: Sponsor[] = [
@@ -103,7 +103,7 @@ const SponsorsSection: React.FC = () => {
           very cool
         </span>{" "}
         <br className="sm:hidden" />
-        <span className="font-gloock font-thin">sponsors</span>
+        <span className="font-gloock font-thin">Partners</span>
       </h1>
 
       <div className="relative w-[380px] h-[380px] flex items-center justify-center mt-16">
