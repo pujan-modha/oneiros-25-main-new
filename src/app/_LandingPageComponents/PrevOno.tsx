@@ -107,7 +107,7 @@ export default function PrevOnoSection() {
         <div className="flex justify-center">
           <div className={`prev-ono-major-events-container ${montserrat.className}`}>
             <div className="prev-ono-major-text-1 prev-ono-major-text">
-              <span className="font-black">Requiem – Manipal University Jaipur’s Ultimate Battle of the Bands*     </span>            Raw energy, electrifying music, and fierce competition-where the best bands clash for glory. Feel the rhythm, own the stage, and let the music speak!
+              <span className="font-black">Requiem –</span> Ultimate Battle of the Bands
             </div>
             <div className="prev-ono-major-img-1 rounded-2xl">
               <FireFliesWrapper>
@@ -127,7 +127,7 @@ export default function PrevOnoSection() {
               </FireFliesWrapper>
             </div>
             <div className="prev-ono-major-text-2 prev-ono-major-text">
-              <span className="font-black">Destival – The Ultimate Dance Faceoff</span> The stage is set, the beats are dropping, and the best dancers are here to own it. Destival brings top talent from everywhere to battle it out, delivering high-energy performances that set the floor on fire. Get ready for a dance showdown like never before!
+              <span className="font-black">Destival –</span> The Ultimate Dance Faceoff
             </div>
             <div className="prev-ono-major-img-2 rounded-2xl">
               <Image className="rounded-2xl" height={0} width={0} sizes="100%" src="https://jaipur.manipal.edu/img/dsw/event/11.jpeg" alt="Previous Oneiros Logo" style={{ height: "100%", width: "100%", objectFit: "cover" }} />
