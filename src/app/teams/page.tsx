@@ -22,22 +22,22 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    quote: "Est dolores explicabo ut natus omnis et perferendis deleniti et reiciendis quasi.",
+    quote: "It always seems impossible until it's done -Nelson Mandela",
     imageUrl: "/images/3.jpeg",
     svgUrl: "/ayaanName.svg", // Path to the local SVG file
   },
   {
-    quote: "Creativity is intelligence having fun.",
+    quote: "Dream loud, create fearlessly, and leave a mark that time won’t erase",
     imageUrl: "/images/2.jpeg",
     svgUrl: "/kuljeetName.svg", // Path to the local SVG file
   },
   {
-    quote: "Code is poetry.",
+    quote: "If life gives you lemons, squeeze them in someone's eye",
     imageUrl: "/images/user1.png",
     svgUrl: "/uditaName.svg", // Path to the local SVG file
   },
   {
-    quote: "Est dolores explicabo ut natus omnis et perferendis deleniti et reiciendis quasi.",
+    quote: "Just an ordinary guy",
     imageUrl: "/images/1.jpeg",
     svgUrl: "/nishchayName.svg", // Path to the local SVG file
   },
@@ -47,7 +47,7 @@ const teamMembers: TeamMember[] = [
     svgUrl: "/ayushName.svg", // Path to the local SVG file
   },
   {
-    quote: "Code is poetry.",
+    quote: "Paise hai toh badi badi baatein",
     imageUrl: "/images/5.jpeg",
     svgUrl: "/shivamName.svg", // Path to the local SVG file
   },

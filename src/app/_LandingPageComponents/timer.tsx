@@ -118,7 +118,8 @@ export default function Timer() {
             </span>
           </h1>
 
-          <p className="text-lg leading-relaxed text-gray-200">Lorem ipsum dolor sit amet. Sit libero dolores qui tenetur placeat ad voluptates explicabo et expedita praesentium ab voluptatem amet! Vel quisquam laboriosam ex consequatur veniam sit omnis adipisci est iste repellat aut nesciunt fuga et amet pariatur in quia modi. Eos magnam illo nam laudantium explicabo ex fugiat quia et aliquid voluptates. Aut quibusdam cupiditate quo ipsa repudiandae nam quia vero et ratione dicta id quia molestiae?Et sequi voluptas ab deserunt necessitatibus 33 internos.</p>
+          <p className="text-lg leading-relaxed text-gray-200">The wait is over! ONEIROS ’25, the annual cultural festival of Manipal University Jaipur, is going to be one of the highlights of the year.
+          </p>
 
           {/* Pointer SVG with Levitating Breathing Effect */}
           <div className="ml-0">
@@ -137,8 +138,8 @@ export default function Timer() {
             />
           </div>
 
-          <p className="text-lg leading-relaxed text-gray-200">At deserunt ipsa est eligendi modi et tempora reprehenderit 33 neque quod. Ut perferendis sint et natus provident ut nostrum esse et nobis natus. Ea ducimus reiciendis aut reiciendis harum et iusto enim et explicabo pariatur vel atque adipisci.</p>
-          <p className="text-lg leading-relaxed text-gray-200">Et inventore unde in quidem excepturi aut galisum eius. Est totam dignissimos et aliquam tempore aut sequi reiciendis et praesentium fuga non dicta voluptatem vel sunt possimus. Aut asperiores asperiores qui odit illum At consequatur consequatur eos officia eaque.</p>
+          <p className="text-lg leading-relaxed text-gray-200">The excitement begins with The Road to ONEIROS from February 15, leading up to three days to remember from February 21 to 23. With the most highly anticipated events of the year, brought to you by clubs across campus, this edition promises an experience like no other.</p>
+          <p className="text-lg leading-relaxed text-gray-200">Get ready for scintillating performances, edge-of-the-seat contests, and memories that will remain long after the fest concludes. Mark the dates and be a part of the celebrations!</p>
         </div>
       </main>
     </>

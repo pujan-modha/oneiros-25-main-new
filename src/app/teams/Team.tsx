@@ -109,7 +109,7 @@ export default function Team() {
 
         const contentHTML = execMembersHTML + coreMembersHTML;
 
-        return <Accordion key={index} title={committee.committeeName} content={contentHTML} />;
+        return <Accordion title={committee.committeeName} content={contentHTML} />;
       })}
     </>
   );
