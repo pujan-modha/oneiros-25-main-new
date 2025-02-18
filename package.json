@@ -10,19 +10,22 @@
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.2",
+    "@radix-ui/react-label": "^2.1.2",
+    "@radix-ui/react-select": "^2.1.6",
     "@radix-ui/react-slot": "^1.1.1",
     "@radix-ui/react-tabs": "^1.1.2",
     "@radix-ui/react-tooltip": "^1.1.8",
     "@studio-freight/lenis": "^1.0.42",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.8.1",
+    "axios": "^1.7.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
     "framer-motion": "^12.4.2",
     "googleapis": "^144.0.0",
     "lenis": "^1.1.20",
-    "lucide-react": "^0.474.0",
+    "lucide-react": "^0.475.0",
     "next": "15.1.6",
     "oneiros-25": "file:",
     "react": "^19.0.0",
@@ -30,7 +33,8 @@
     "react-intersection-observer": "^9.15.1",
     "react-type-animation": "^3.2.0",
     "tailwind-merge": "^3.0.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
