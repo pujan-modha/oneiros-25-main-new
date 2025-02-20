@@ -32,10 +32,10 @@ const inclusiveSans = Inclusive_Sans({
 
 export default function Timer() {
   const [timeLeft, setTimeLeft] = useState({
-    days: 2,
-    hours: 4,
-    minutes: 12,
-    seconds: 59,
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
   });
 
   useEffect(() => {

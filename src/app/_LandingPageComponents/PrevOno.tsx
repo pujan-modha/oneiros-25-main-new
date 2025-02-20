@@ -34,7 +34,7 @@ export default function PrevOnoSection() {
             <Image height={0} width={0} sizes="100%" src="/LandingPageImgs/PrevOnoLogo.png" alt="Previous Oneiros Logo" style={{ height: "100%", width: "100%", objectFit: "contain" }} />
           </div>
           <h5 className="prev-ono-title-date -mt-3 text-center text-zinc-400">
-            <em>12 Sep - 15 Sep</em>
+            <em>22 Feb - 24 Feb</em>
           </h5>
           <h4 className="prev-ono-title-motto text-center text-2xl font-bold text-zinc-300">
             <span className="text-4xl">L</span>IVE <span className="text-4xl">L</span>OVE <span className="text-4xl">L</span>AUGH
