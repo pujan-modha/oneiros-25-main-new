@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Instagram, Mail, Phone, MapPin, Heart, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 
+
 const Footer = () => {
   return (
     <footer className="relative bg-black text-white w-full overflow-hidden font-montserrat">
@@ -82,7 +83,7 @@ const Footer = () => {
                   Rajasthan 303007
                 </span>
               </p>
-              <Link href="https://maps.app.goo.gl/V4o9U5RiRbWZHvSx6" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors duration-300">
+              <Link href="https://maps.app.goo.gl/NDXSgmPRipaSPZKx8" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-purple-400 hover:text-purple-300 transition-colors duration-300">
                 <span className="font-instrument-sans">View on Google Maps</span>
                 <ExternalLink size={14} />
               </Link>
@@ -119,17 +120,18 @@ const Footer = () => {
 };
 
 const quickLinks = [
-  { href: "#", text: "Home" },
-  { href: "#", text: "About" },
-  { href: "#", text: "Events" },
-  { href: "#", text: "Schedule" },
+  { href: "/", text: "Home" },
+  { href: "/events", text: "Events" },
+  { href: "/artists", text: "Artists" },
+  { href: "/teams", text: "Teams" },
+  { href: "/sponsors", text: "Sponsors" },
 ];
 
 const contactLinks = [
   {
-    href: "https://instagram.com/oneiros_muj",
+    href: "https://www.instagram.com/mujoneiros?igsh=MTRiZmE1Nm44em5uaw==",
     icon: Instagram,
-    text: "@oneiros_muj",
+    text: "@mujoneiros",
     ariaLabel: "Visit our Instagram page",
   },
   {

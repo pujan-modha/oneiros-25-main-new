@@ -14,7 +14,7 @@ export default function FAQSection() {
   return (
     <>
       <h2 className={`faq-title text-3xl pl-4 mb-2 font-semibold ${montserrat.className}`}>FAQ</h2>
-      <Accordion title="1.⁠ ⁠Who can attend ONEIROS-25?" content="<span class='italic'>ONEIROS is open to all students of Manipal University Jaipur, and select events may allow external participation. Check the event details on the website for eligibility criteria and passes.</span>" />
+      <Accordion title="⁠⁠Who can attend ONEIROS-25?" content="<span class='italic'>ONEIROS is open to all students of Manipal University Jaipur, and select events may allow external participation. Check the event details on the website for eligibility criteria and passes.</span>" />
       <Accordion title="When is ONEIROS-25 happening?" content="<span class='italic'>The excitement begins with Road to ONEIROS starting on February 14, leading up to the main fest from February 21 to 23.</span>" />
       <Accordion
         title="How to get Entry into ONEIROS-25?"

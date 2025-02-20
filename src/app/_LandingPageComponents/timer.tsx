@@ -32,14 +32,14 @@ const inclusiveSans = Inclusive_Sans({
 
 export default function Timer() {
   const [timeLeft, setTimeLeft] = useState({
-    days: 2,
-    hours: 4,
-    minutes: 12,
-    seconds: 59,
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
   });
 
   useEffect(() => {
-    const targetDate = new Date("2025-02-20T00:00:00").getTime(); // Set your target date here
+    const targetDate = new Date("2025-02-21T00:00:00").getTime(); // Set your target date here
 
     const timer = setInterval(() => {
       const now = new Date().getTime();

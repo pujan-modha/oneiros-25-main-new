@@ -16,9 +16,9 @@ interface Event {
 }
 
 const events: Event[] = [
-  { id: 1, title: "Hackathon", date: "2025-02-10T10:00:00Z", description: "A 24-hour coding challenge.", image: "/" },
-  { id: 2, title: "AI Workshop", date: "2025-02-15T14:00:00Z", description: "Learn the latest in AI development.", image: "/images/ai-workshop.jpg" },
-  { id: 3, title: "Cybersecurity Meetup", date: "2025-02-20T18:00:00Z", description: "Discussion on the latest threats and defenses.", image: "/images/cybersecurity.jpg" },
+  { id: 1, title: "Destival", date: "2025-02-21T10:00:00Z", description: "A 24-hour coding challenge.", image: "/events/destival.png" },
+  { id: 2, title: "Requiem", date: "2025-02-22T14:00:00Z", description: "Learn the latest in AI development.", image: "/events/requiem.png" },
+  { id: 3, title: "Cosmos", date: "2025-02-22T18:00:00Z", description: "Discussion on the latest threats and defenses.", image: "/events/cosmos.png" },
 ];
 
 const EventTracker = () => {
@@ -77,7 +77,8 @@ const EventTracker = () => {
       )}
       <div className="relative bg-opacity-60 p-4 sm:p-6 rounded-2xl">
         <h2 className="text-2xl sm:text-3xl text-center font-bold font-montserrat text-white">Upcoming Event</h2>
-        <p className="mt-2 text-2xl sm:text-3xl md:text-4xl font-light text-center font-instrument-sans bg-gradient-to-r from-red-400 to-pink-300 bg-clip-text text-transparent"><span className="font-instrument-sans font-black">Starting in:</span> {countdown.hours}h {countdown.minutes}m {countdown.seconds}s</p>
+        <p className="mt-2 text-2xl sm:text-3xl md:text-4xl font-light text-center font-instrument-sans bg-gradient-to-r from-red-400 to-pink-300 bg-clip-text text-transparent">
+          <span className="font-instrument-sans font-black">Starting in:</span> {countdown.hours}h {countdown.minutes}m {countdown.seconds}s</p>
       </div>
     </motion.div>
   );
