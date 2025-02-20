@@ -1,7 +1,8 @@
 "use client";
 
 import type React from "react";
-import { useRef, useState } from "react";
+import { useRef } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { Music } from "lucide-react";

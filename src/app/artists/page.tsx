@@ -6,7 +6,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import Lenis from "lenis";
 import MysteryReveal from "../../components/MysteryReveal";
 import PreviousArtistCard from "../../components/PreviousArtistCard";
-import ScrollPrompt from "../../components/ScrollPrompt";
 import ParallaxBackground from "../../components/ParallaxBackground";
 import "./styles.css";
 
@@ -45,32 +44,6 @@ const previousArtists = [
     gradientClass: "bg-gradient-to-br from-pink-500 to-indigo-600",
     spotify: "https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we",
     accolades: ["3 Grammy Awards", "6 Brit Awards", "2 Guinness World Records"],
-  },
-  {
-    year: 2021,
-    name: "Coldplay",
-    image:
-      "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop",
-    description:
-      "Legendary British rock band known for their evolving sound and spectacular live performances.",
-    gradientClass: "bg-gradient-to-br from-yellow-400 to-blue-500",
-    spotify: "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU",
-    accolades: [
-      "7 Grammy Awards",
-      "9 Brit Awards",
-      "100 Million Records Sold Worldwide",
-    ],
-  },
-  {
-    year: 2020,
-    name: "Ed Sheeran",
-    image:
-      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&h=600&fit=crop",
-    description:
-      "Chart-topping singer-songwriter known for his heartfelt lyrics and acoustic-pop sound.",
-    gradientClass: "bg-gradient-to-br from-orange-500 to-red-700",
-    spotify: "https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V",
-    accolades: ["4 Grammy Awards", "1 MBE", "6 Brit Awards"],
   },
 ];
 
@@ -111,17 +84,23 @@ const ArtistsPage: React.FC = () => {
         exit="out"
         variants={pageVariants}
         transition={pageTransition}
+        className="relative"
       >
-        <ParallaxBackground image={currentArtist.image} />
-        <div className="relative bg-black min-h-screen text-white overflow-hidden">
-          <div className="relative h-screen flex flex-col">
+        {/* Background layer - lowest z-index */}
+        <div className="fixed inset-0 z-0">
+          <ParallaxBackground image={currentArtist.image} />
+        </div>
+
+        {/* Content layer - middle z-index */}
+        <div className="relative z-10 min-h-screen text-white">
+          {/* Hero Section */}
+          <div className="relative h-screen">
             <MysteryReveal currentArtist={currentArtist} />
-            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-50">
-              <ScrollPrompt />
-            </div>
           </div>
+
+          {/* Previous Artists Section */}
           <motion.div
-            className="container mx-auto px-4 py-12 sm:py-16 space-y-12 sm:space-y-16 md:space-y-24 relative z-50"
+            className="container mx-auto px-4 py-12 sm:py-16 space-y-12 sm:space-y-16 md:space-y-24"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}

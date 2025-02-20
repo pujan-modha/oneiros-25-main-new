@@ -33,7 +33,7 @@ const teamMembers: TeamMember[] = [
   },
   {
     quote: "If life gives you lemons, squeeze them in someone's eye",
-    imageUrl: "/images/user1.png",
+    imageUrl: "/images/6.jpeg",
     svgUrl: "/uditaName.svg", // Path to the local SVG file
   },
   {

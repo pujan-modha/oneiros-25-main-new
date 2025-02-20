@@ -94,7 +94,7 @@ const Footer = () => {
         <div className="relative mt-12 pt-8 text-center">
           <div className="absolute top-0 left-1/2 w-1/2 h-px bg-gradient-to-r from-transparent via-purple-500/50 to-transparent transform -translate-x-1/2" />
           <div className="space-y-4">
-            <p className="text-gray-400 text-sm">© 2024 Oneiros. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">© 2025 Oneiros. All rights reserved.</p>
             <p className="flex items-center justify-center gap-2 text-gray-400 text-sm">
               Crafted with
               <motion.span
@@ -123,7 +123,6 @@ const quickLinks = [
   { href: "#", text: "About" },
   { href: "#", text: "Events" },
   { href: "#", text: "Schedule" },
-  { href: "#", text: "Register" },
 ];
 
 const contactLinks = [
