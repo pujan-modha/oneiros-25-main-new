@@ -23,7 +23,7 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
   {
     quote: "It always seems impossible until it's done -Nelson Mandela",
-    imageUrl: "/images/3.jpeg",
+    imageUrl: "/images/3.jpg",
     svgUrl: "/ayaanName.svg", // Path to the local SVG file
   },
   {

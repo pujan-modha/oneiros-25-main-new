@@ -39,7 +39,7 @@ export default function Timer() {
   });
 
   useEffect(() => {
-    const targetDate = new Date("2025-02-20T00:00:00").getTime(); // Set your target date here
+    const targetDate = new Date("2025-02-21T00:00:00").getTime(); // Set your target date here
 
     const timer = setInterval(() => {
       const now = new Date().getTime();

@@ -20,12 +20,7 @@ const sponsors: Sponsor[] = [
   { name: "", logo: "6P.png" },
 ];
 
-const minorSponsors: Sponsor[] = [
-  { name: "Minor Sponsor 1", logo: "https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg" },
-  { name: "Minor Sponsor 2", logo: "https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg" },
-  { name: "Minor Sponsor 3", logo: "https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg" },
-  { name: "Minor Sponsor 4", logo: "https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg" },
-];
+
 
 const benefits: Benefit[] = [
   "Unrivaled Visibility",
@@ -176,33 +171,7 @@ const SponsorsSection: React.FC = () => {
         </div>
       </div>
 
-      <div className="mt-16 w-full px-4 py-8">
-        <h2 className="text-2xl sm:text-3xl font-semibold text-white text-center mb-8 font-instrument-sans">
-          Our Minor Sponsors
-        </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 justify-center">
-          {minorSponsors.map((sponsor, index) => (
-            <motion.div
-              key={index}
-              whileHover={{ scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 300, damping: 20 }}
-              className="relative bg-white/5 rounded-lg p-4 backdrop-blur-sm 
-                        hover:bg-white/10 transition-colors duration-300"
-            >
-              <div className="relative w-full h-full flex flex-col items-center gap-2">
-                <img
-                  src={sponsor.logo}
-                  alt={sponsor.name}
-                  className="w-[90px] h-[90px] object-contain"
-                />
-                <span className="text-sm font-instrument-sans text-white/80 mt-2 text-center">
-                  {sponsor.name}
-                </span>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
+      
 
       <style global jsx>{`
         @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Instrument+Sans:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
