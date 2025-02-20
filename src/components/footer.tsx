@@ -124,7 +124,7 @@ const quickLinks = [
   { href: "/events", text: "Events" },
   { href: "/artists", text: "Artists" },
   { href: "/teams", text: "Teams" },
-  { href: "/sponsors", text: "Sponsors" },
+  { href: "/sponsors", text: "Partners" },
 ];
 
 const contactLinks = [
