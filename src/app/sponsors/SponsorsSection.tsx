@@ -109,7 +109,7 @@ const SponsorsSection: React.FC = () => {
             className="w-full h-full object-contain"
           />
           <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 text-lg font-semibold transition-opacity">
-            {`Center Sponsor`}
+            
           </div>
         </div>
 
